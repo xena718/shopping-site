@@ -6,6 +6,8 @@ put melons in a shopping cart.
 Authors: Joel Burton, Christian Fernandez, Meggie Mahnken, Katie Byers.
 """
 
+## Q: do we have to have do pip install every time after activating the virtual environment?
+
 from flask import Flask, render_template, redirect, flash, session
 import jinja2
 
